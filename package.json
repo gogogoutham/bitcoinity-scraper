@@ -1,0 +1,30 @@
+{
+  "name": "bitcoinity-scraper",
+  "version": "0.0.0",
+  "description": "PostgreSQL based scraping engine for data.bitcoinity.org",
+  "main": "lib/bitcoinity-scraper.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "pg": "~2.11.1",
+    "request": "~2.34.0",
+    "sql": "~0.35.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gseshadri/bitcoinity-scraper.git"
+  },
+  "author": "gseshadri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gseshadri/bitcoinity-scraper/issues"
+  },
+  "homepage": "https://github.com/gseshadri/bitcoinity-scraper"
+}
