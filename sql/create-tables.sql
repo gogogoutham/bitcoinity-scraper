@@ -1,0 +1,9 @@
+CREATE TABLE volume_by_minute (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE volume_by_hour (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE volume_by_day (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE price_by_minute (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE price_by_hour (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE price_by_day (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE tradespm_by_minute (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE tradespm_by_hour (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
+CREATE TABLE tradespm_by_day (time TIMESTAMP WITH TIME ZONE, exchange VARCHAR(15), value DOUBLE PRECISION, PRIMARY KEY(time, exchange));
