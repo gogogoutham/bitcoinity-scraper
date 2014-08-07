@@ -50,6 +50,8 @@ bitcoinityScraper.run(
 });
 ```
 
+Some stock examples of this type of scraper can be viewed in the example/ directory.
+
 If you wish to decouple file saving, table loading, URL requests from one another, please have a look at the methods in lib/utility.js, lib/pgloader.js, and lib/bitcoinity.js respectively.
 
 
