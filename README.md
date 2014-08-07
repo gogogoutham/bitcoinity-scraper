@@ -6,10 +6,10 @@ A node.js and PostgreSQL based module for scraping data from data.bitcoinity.org
 Installation
 ============
 
-Clone the repository, and run npm install in your favorite node development environment. Something similar to the following aught to work:
+Clone the repository, and run npm install in your favorite node development environment. Alternatively, running this in your node project folder should work:
 
 ```
-npm install async https://github.com/gseshadri/bitcoinity-scraper.git
+npm install git://github.com/gseshadri/bitcoinity-scraper.git
 ```
 
 Setup
