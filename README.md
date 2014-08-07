@@ -1,13 +1,16 @@
 bitcoinity-scraper
 ==================
 
-A node.js and PostgreSQL based scraping engine for data.bitcoinity.org
+A node.js and PostgreSQL based module for scraping data from data.bitcoinity.org
 
 Installation
 ============
 
-Clone the repository, and run npm install in your favorite node development environment.
+Clone the repository, and run npm install in your favorite node development environment. Something similar to the following aught to work:
 
+```
+npm install async https://github.com/gseshadri/bitcoinity-scraper.git
+```
 
 Setup
 =====
